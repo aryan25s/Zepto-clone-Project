@@ -35,8 +35,21 @@ body{
     
 }
 
-.first{
+.first, .second{
     margin-left: 200px;
+}
+
+.img3{
+    height: 70px;
+    width: 70px;
+}
+
+.dine{
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+    font-size: 20px;
+    color: rgb(98, 93, 93);
 }
 
 .brand{
@@ -86,6 +99,17 @@ body{
 button{
     height: 50px;
     width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    color: rgba(101, 97, 97, 0.887);
+}
+
+.head{
+    background-color: white;
 }
 
 .Box{
