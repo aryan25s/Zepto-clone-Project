@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(253, 243, 243);
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(218, 43, 16, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.card{
+    display: inline-block;  /* inline mtlb jitni uski jarurat hai utni he space lega */
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 20px solid rgb(253, 243, 243);
+    border-radius: 20px;
+}
+
+.image{
+    width: 350px;
+    position: relative;
+    
+}
+
+.first{
+    margin-left: 200px;
+}
+
+.brand{
+    color: rgb(216, 5, 5);
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.searching{
+    height: 30px;
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+
+
+    /* What position: relative Actually Does
+	•	The element stays in the normal document flow
+	•	But you can now shift it using:
+	•	top
+	•	bottom
+	•	left
+	•	right
+ */
+    /* By default, every element has:position: static;
+    When position is static:
+	•	You cannot use top, bottom, left, or right.
+	•	These properties will not work.
+    
+    
+    So when you write:
+    .searching {
+    width: 200px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 5px;
+
+
+
+    You are telling CSS:
+
+“Allow this element to move from its normal position.”
+}*/
+}
+
+button{
+    height: 50px;
+    width: 80px;
+}
+
+.Box{
+    display: inline-block;  
+
+    /* inline mean cheejo ko ak he line mea laane ke liye  { jitna space h utna he lo } */
+}
+
+.img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.restaurant, .food, .location{
+    position: relative;                     
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.price, .distance{
+    position: absolute;
+    right: 5px;
+}
+
+.food, .place{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.distance{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* 0:33:10 yha tk maine dekh liya hai */
