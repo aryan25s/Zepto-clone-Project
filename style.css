@@ -35,7 +35,24 @@ body{
     
 }
 
-.first, .second{
+.first{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.third{
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.257);
+}
+
+.dining{
     margin-left: 200px;
 }
 
@@ -44,7 +61,7 @@ body{
     width: 70px;
 }
 
-.dine{
+.dine, .Delivery, .Nighting{
     position: relative;
     bottom: 22px;
     left: 5px;
@@ -52,10 +69,10 @@ body{
     color: rgb(98, 93, 93);
 }
 
-/* .delivery{
+.delivery{
     margin-left: 50px;
     margin-right: 50px;
-} */
+}
 
 .brand{
     color: rgb(216, 5, 5);
